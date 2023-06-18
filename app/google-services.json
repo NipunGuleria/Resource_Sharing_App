@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "382888225083",
+    "project_id": "readpdf-26a55",
+    "storage_bucket": "readpdf-26a55.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:382888225083:android:2ac41573e1529afe7caf1e",
+        "android_client_info": {
+          "package_name": "com.hp.resv2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "382888225083-9flio83boh7pdku2uost83eeingqucg5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hp.resv2",
+            "certificate_hash": "fc673dfd9173771d92c0c1b5cd7283eae0bbedb8"
+          }
+        },
+        {
+          "client_id": "382888225083-equ4hn2psn71581inruhhr4fee4vc9va.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCh_y0ehaj-JTcT02F8W-XbuNxJEqH1AKk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "382888225083-equ4hn2psn71581inruhhr4fee4vc9va.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

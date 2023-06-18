@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".folderpage">
+
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:background="@drawable/linear_back">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:includeFontPadding="false"
+            android:letterSpacing="0.03"
+            android:text="@string/selectfile"
+            android:textColor="@color/black"
+            >
+
+        </TextView>
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/ediText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll1"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/edittext_back"
+        android:hint="@string/twiceselect"
+        android:includeFontPadding="false"
+        android:letterSpacing="0.02"
+        android:minHeight="48dp"
+        android:padding="12dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/primarycolour"
+        android:textSize="16sp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ediText"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="@string/upload_file"
+        android:textSize="19sp"
+        android:includeFontPadding="false"
+        android:letterSpacing="0.06"
+        android:textAllCaps="false"
+        android:id="@+id/btn"
+        android:background="@drawable/button_click_ripple"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/retrievefiles"
+        android:textSize="19sp"
+        android:includeFontPadding="false"
+        android:letterSpacing="0.06"
+        android:textAllCaps="false"
+        android:id="@+id/btnRead"
+        android:onClick="retrievepdfs"
+        android:background="@drawable/button_click_ripple"
+        android:textColor="@color/white"/>
+
+</RelativeLayout>

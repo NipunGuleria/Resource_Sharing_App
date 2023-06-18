@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">resV2</string>
+    <string name="resource_sharing_app">RESOURCE SHARING APPLICATION</string>
+    <string name="todo">TODO</string>
+    <string name="name">TextView</string>
+    <string name="desc">Button</string>
+    <string name="no_resources_available">NO resources available</string>
+    <string name="selectfile">select your file from storage you can only select pdf file</string>
+    <string name="twiceselect">click twice to select the file</string>
+    <string name="upload_file">UPLOAD FILE</string>
+    <string name="retrievefiles">Retrieve PDF Files</string>
+    <string name="pdf_file_name">PDF FILE NAME</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="click_to_login">Click to Login</string>
+    <string name="click_to_register">Click To Register</string>
+    <string name="logout">LOGOUT</string>
+</resources>
